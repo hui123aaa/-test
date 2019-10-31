@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ng-zorro-antd-mobile/src/ng-zorro-antd-mobile.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/trtc.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,6 +92,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ng-zorro-antd-mobile/src/ng-zorro-antd-mobile.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -120,6 +124,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "video-demo"
 }
